@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Therapiya",
+        "title": "Odontología ",
         "icon": "flaticon-stethoscope",
         "image": "assets/img/home-1/300x240.jpg",
         "category": [
@@ -19,7 +19,7 @@
     },
     {
         "id": 2,
-        "title": "Dentistry",
+        "title": "Ortodoncia",
         "icon": "flaticon-doctor-1",
         "image": "assets/img/home-1/300x240-0.jpg",
         "category": [
@@ -37,7 +37,7 @@
     },
     {
         "id": 3,
-        "title": "Virusology",
+        "title": "Endodoncia",
         "icon": "flaticon-heartbeat",
         "image": "assets/img/home-1/300x240-1.jpg",
         "category": [

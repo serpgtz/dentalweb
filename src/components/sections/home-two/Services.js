@@ -8,9 +8,9 @@ class Services extends Component {
             <div className="container">
                 <div className="sigma_service-wrapper style-18 margin-negative">
                     <div className="section-title flex-title">
-                        <h3 className="title mb-0">Praesent tempor dictum tellus ut molestie</h3>
+                        <h3 className="title mb-0">Ofrecemos especialidades como Ortodoncia, Endodoncia, y Odontopediatría y más para un cuidado dental completo.</h3>
                         <Link to="/contact" className="sigma_btn mt-3 mt-sm-0">
-                            Get a Quote
+                            Contactanos
                             <i className="fal fa-arrow-right ml-3" />
                         </Link>
                     </div>

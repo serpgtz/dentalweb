@@ -18,8 +18,8 @@ class Banner extends Component {
                                     Experiencia y profesionalismo al cuidado de tu salud dental
                                     </h1>
                                     <div className="banner-links d-flex align-items-center">
-                                        <Link to="/contact" className="sigma_btn">Get a Quote</Link>
-                                        <Link to="/about" className="sigma_btn light ml-4">Read more</Link>
+                                        <Link to="/contact" className="sigma_btn">Contactanos</Link>
+                                        <Link to="/about" className="sigma_btn light ml-4">Quienes Somos</Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 d-none d-lg-block">
