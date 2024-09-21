@@ -26,7 +26,7 @@ class Services extends Component {
                                         <h5>
                                             <Link to={"/service-details/" + item.id}>{item.title}</Link>
                                         </h5>
-                                        <p>{item.shorttext.slice(0, 70)}</p>
+                                        <p>{item.shorttext.slice(0, 115)}</p>
                                     </div>
                                 </div>
                             </div>
