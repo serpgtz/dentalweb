@@ -18,7 +18,7 @@ class Whyus extends Component {
                         <div className="col-lg-6">
                             <div className="sigma_about style-9 mt-5 mt-lg-0">
                                 <div className="section-title">
-                                    <h3 className="title mb-5">We Provide Essential Service For Your Health</h3>
+                                    <h3 className="title mb-5">Embellece tu Sonrisa con Tratamientos Estéticos</h3>
                                 </div>
                                 <div className="sigma_about-content">
                                     <div className="row">
@@ -38,7 +38,7 @@ class Whyus extends Component {
                                         {/* Data */}
                                     </div>
                                     <Link to="/contact" className="sigma_btn">
-                                        Get A Quote
+                                        Contactanos
                                         <i className="fal fa-arrow-right ml-3" />
                                     </Link>
                                 </div>

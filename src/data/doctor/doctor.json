@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "name": "Matthew Reyes",
+        "name": "Sergio Partida",
         "image":"assets/img/doctors-grid/348x350-0.jpg",
         "rating": 5,
-        "specialist": "Obstetrics & Gynaecology",
+        "specialist": "Paciente",
         "location": "Hong Kong",
         "qualification": "University of California San Francisco Parnassus Campus",
         "experience": 5,

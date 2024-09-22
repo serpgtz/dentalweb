@@ -7,8 +7,8 @@ class Servicestwo extends Component {
         return (
             <div className="container">
                 <div className="section-title centered">
-                    <span className="subtitle text-white">What We Do</span>
-                    <h3 className="title text-white">Services for You</h3>
+                    <span className="subtitle text-white">Que Hacemos</span>
+                    <h3 className="title text-white">Servicios Para Ti</h3>
                 </div>
                 <div className="row">
                     {/* Data */}
@@ -22,7 +22,7 @@ class Servicestwo extends Component {
                                     <h5>
                                         <Link to={"/service-details/" + item.id}>{item.title}</Link>
                                     </h5>
-                                    <p>{item.shorttext.slice(0, 70)}</p>
+                                    <p>{item.shorttext.slice(0, 150)}</p>
                                 </div>
                             </div>
                         </div>
