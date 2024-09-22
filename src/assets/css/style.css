@@ -1788,6 +1788,8 @@ table img {
 
 .sigma_header-top .sigma_header-top-nav li {
   margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+  font-size: 24px; /* Ajusta el tamaño */
 }
 
 .sigma_header-top .sigma_header-top-nav li a {
@@ -10888,6 +10890,39 @@ background-color: var(--thm-border);
   font-size: 28px;
   line-height: 1.2;
 }
+/*---------------redes-------------------------------------*/
+
+/* Sobreescribiendo los estilos solo para el componente Redes */
+.redes .sigma_header-top-nav li a {
+  color: #fff; /* Cambia el color de los iconos a blanco */
+  background-color: transparent; /* Elimina el fondo */
+  margin-right: 30px; /* Ajusta el espacio entre los iconos */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+/* Opción para cambiar el color al hacer hover */
+.redes .sigma_header-top-nav li a:hover {
+  color: #ccc; /* Cambia el color al hacer hover, si deseas */
+}
+
+/* Asegura que los íconos estén alineados correctamente */
+.redes .sigma_header-top-nav li {
+  display: inline-block;
+}
+
+/* Aumentar el tamaño de los íconos */
+.redes .sigma_header-top-nav li a i {
+  font-size: 30px; /* Ajusta el tamaño de los íconos */
+  vertical-align: middle; /* Alineación vertical */
+  margin-right: 20px; /* Ajusta el espacio entre los íconos */
+}
+
+/* Mueve los íconos más hacia la izquierda */
+.redes .container {
+  padding-left: 0; /* Elimina el padding izquierdo del contenedor */
+  margin-left: -20px; /* Ajusta este valor para mover los íconos más a la izquierda */
+}
+
 
 /*-------------- Contact Form --------------------------- */
 /* style 1 */

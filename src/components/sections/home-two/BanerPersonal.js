@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Redes from '../../layouts/Redes.js';
 
 class BannerPersonal extends Component {
     render() {
@@ -13,6 +14,7 @@ class BannerPersonal extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-7 mt-lg-0 mt-3">
+                                <Redes />
                                 {/* <form>
                                     <div className="input-group">
                                         <input type="email" name="email" placeholder="Email Address" required />

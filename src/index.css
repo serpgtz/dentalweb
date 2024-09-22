@@ -184,6 +184,10 @@ button:focus,
   .irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
     border-top-color: var(--thm-base)!important;
 }
+.face{
+    background-color: #fff;
+}
+
 @media (max-width:991px) {
     .sigma_info-wrapper.style-26{
         flex-wrap: wrap;
