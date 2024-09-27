@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Having overw eight and depression can",
+        "title": "La importancia de la salud dental en la vida cotidiana",
         "format": "standard",
         "image": [
             "assets/img/blog-grid/350x300.jpg"
@@ -17,39 +17,31 @@
         "author": [
             1
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "La salud dental es fundamental para el bienestar general. Una buena higiene bucal puede prevenir enfermedades y mejorar la calidad de vida.",
+        "htmltext": "<p> La salud dental es una parte crucial de nuestra salud general. Mantener una buena higiene bucal no solo evita caries, sino que también previene enfermedades en otras partes del cuerpo.</p><p> Es importante cepillarse los dientes al menos dos veces al día y usar hilo dental regularmente. Estas prácticas ayudan a eliminar la placa y los restos de alimentos.</p><blockquote><p>El cuidado dental no solo es estético, sino esencial para la salud.</p><cite>Dr. Ana Pérez</cite></blockquote><h4>Consejos para una buena higiene bucal</h4><p> Visitar al dentista al menos dos veces al año es clave para una salud dental óptima. Además, limitar el consumo de azúcares y alimentos ácidos puede prevenir problemas dentales.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "Una buena higiene dental es esencial para la salud general. Debemos cuidarla todos los días.",
+                "replies": []
             },
             {
                 "user": [
-                    3
+                    2
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "13 enero",
+                "comment": "Es increíble cómo la salud dental afecta nuestro bienestar general. ¡Gracias por la información!",
                 "replies": []
             }
         ]
     },
     {
         "id": 2,
-        "title": "The Connection Between Post-traumatic",
+        "title": "Conexión entre la salud dental y enfermedades sistémicas",
         "format": "video",
         "video": "https://www.youtube.com/watch?v=TKnufs85hXk",
         "image": [
@@ -66,42 +58,34 @@
         "author": [
             2
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "La salud dental está relacionada con diversas enfermedades sistémicas. Un cuidado adecuado puede prevenir complicaciones.",
+        "htmltext": "<p> Estudios han demostrado que una mala salud dental puede estar relacionada con enfermedades como diabetes, enfermedades cardíacas y enfermedades respiratorias.</p><p> Mantener una buena salud dental puede reducir el riesgo de desarrollar estas enfermedades. Los chequeos regulares son esenciales.</p><blockquote><p>La salud bucal es un reflejo de nuestra salud general.</p><cite>Dr. Luis Martínez</cite></blockquote><h4>Recomendaciones para cuidar tu salud dental</h4><p> Realiza chequeos regulares y consulta a tu dentista sobre cualquier problema. La prevención es clave.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "Es impresionante cómo lo que comemos afecta nuestra salud dental.",
+                "replies": []
             },
             {
                 "user": [
                     3
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "27 diciembre",
+                "comment": "Los chequeos regulares son muy importantes. ¡No los descuidemos!",
                 "replies": []
             }
         ]
     },
     {
         "id": 3,
-        "title": "Adjusting to life with a spinal cord injury",
+        "title": "Ajustándose a la vida después de una cirugía dental",
         "format": "quote",
-        "quote": "It is a long established fact that a reader will be distracted by the readable",
-        "quoteauthor": "Tim Abel",
+        "quote": "El cuidado dental es vital para una vida saludable.",
+        "quoteauthor": "Dr. Carlos Jiménez",
         "image": [
             "assets/img/blog-grid/350x300-1.jpg"
         ],
@@ -116,39 +100,31 @@
         "author": [
             3
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "Después de una cirugía dental, el cuidado es fundamental para una recuperación óptima.",
+        "htmltext": "<p> Después de una cirugía dental, es normal sentir incomodidad. Sin embargo, seguir las instrucciones del dentista es crucial para una recuperación exitosa.</p><p> Mantener una buena higiene bucal ayudará a prevenir infecciones y complicaciones.</p><blockquote><p>El cuidado dental adecuado es fundamental para una buena recuperación.</p><cite>Dr. Carlos Jiménez</cite></blockquote><h4>Consejos post-operatorios</h4><p> Evita alimentos duros y calientes, y sigue las indicaciones de tu dentista. La paciencia es clave para una buena sanación.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "La información sobre cuidados postoperatorios es muy útil. Gracias.",
+                "replies": []
             },
             {
                 "user": [
                     3
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "27 diciembre",
+                "comment": "Siempre es mejor prevenir que curar. ¡A cuidar nuestros dientes!",
                 "replies": []
             }
         ]
     },
     {
         "id": 4,
-        "title": "Having overw eight and depression can",
+        "title": "Cómo la dieta afecta tu salud dental",
         "format": "audio",
         "audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/41395010&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&visual=false",
         "image": [
@@ -165,41 +141,33 @@
         "author": [
             4
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "Una dieta balanceada es esencial para la salud dental. Aprende cómo los alimentos influyen en tus dientes.",
+        "htmltext": "<p> La dieta juega un papel crucial en la salud dental. Alimentos ricos en azúcares pueden contribuir a la formación de caries.</p><p> Consumir frutas, verduras y lácteos puede fortalecer tus dientes y encías.</p><blockquote><p>La alimentación saludable es la base de una buena salud dental.</p><cite>Dr. Ana López</cite></blockquote><h4>Alimentos recomendados</h4><p> Incorpora alimentos ricos en calcio y vitamina D en tu dieta para mantener tus dientes fuertes y sanos.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "Interesante cómo la comida afecta nuestra salud dental.",
+                "replies": []
             },
             {
                 "user": [
                     3
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "27 diciembre",
+                "comment": "¡A cuidar lo que comemos para cuidar nuestros dientes!",
                 "replies": []
             }
         ]
     },
     {
         "id": 5,
-        "title": "The connection between post-traumatic",
+        "title": "El impacto de la salud dental en la autoestima",
         "format": "link",
-        "link": "www.example.com",
+        "link": "www.ejemplo.com",
         "image": [
             "assets/img/blog-grid/350x300-3.jpg"
         ],
@@ -214,80 +182,64 @@
         "author": [
             5
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "La salud dental puede influir en la autoestima y la imagen personal. Cuidar tus dientes es cuidar de ti mismo.",
+        "htmltext": "<p> La forma en que nos sentimos acerca de nuestra sonrisa puede afectar nuestra confianza y autoestima. Una buena salud dental contribuye a una imagen positiva.</p><p> Es esencial cuidar nuestros dientes y visitar al dentista regularmente para mantener una sonrisa radiante.</p><blockquote><p>Cuidar de tu sonrisa es cuidar de ti mismo.</p><cite>Dr. Manuel Gómez</cite></blockquote><h4>Importancia de la autoestima</h4><p> Una buena higiene dental puede mejorar tu bienestar emocional y social.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "La salud dental definitivamente impacta nuestra confianza.",
+                "replies": []
             },
             {
                 "user": [
-                    3
+                    2
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "13 enero",
+                "comment": "¡A cuidar nuestra sonrisa!",
                 "replies": []
             }
         ]
     },
     {
         "id": 6,
-        "title": "Adjusting to life with a spinal cord injury",
+        "title": "Eligiendo el cepillo de dientes adecuado",
         "format": "standard",
         "image": [
             "assets/img/blog-grid/350x300-4.jpg"
         ],
         "category": [
             1,
-            2
+            3
         ],
         "tags": [
             1,
-            2
+            3
         ],
         "author": [
             6
         ],
-        "postdate": "25 July, 2022",
-        "shorttext": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><cite>Kyle Dean</cite></blockquote><h4>Fpark Calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> <a href='../assets/img/blog-details/800x400-0.jpg' class='gallery-thumb'> <img src='../assets/img/blog-details/800x400-0.jpg' alt='post'> </a><h4>DDH Entertainment Sparks calls for Security</h4><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>",
+        "postdate": "25 julio, 2022",
+        "shorttext": "Elegir el cepillo de dientes adecuado es fundamental para una buena higiene bucal. Descubre qué considerar.",
+        "htmltext": "<p> La elección de un buen cepillo de dientes puede hacer una gran diferencia en la salud dental. Considera el tamaño de la cabeza, la dureza de las cerdas y si prefieres un cepillo manual o eléctrico.</p><p> Un cepillo de dientes suave es generalmente recomendado para evitar dañar las encías.</p><blockquote><p>Un buen cepillo de dientes es tu mejor aliado en la salud bucal.</p><cite>Dr. Laura Rodríguez</cite></blockquote><h4>Consejos para elegir tu cepillo</h4><p> Cambia tu cepillo cada tres meses o antes si las cerdas están desgastadas. La higiene de tu cepillo también es importante.</p>",
         "reviews": [
             {
                 "user": [
                     1
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
-                "replies": [
-                    {
-                        "user": [
-                            2
-                        ],
-                        "commentdate": "January 13",
-                        "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
-                    }
-                ]
+                "commentdate": "27 diciembre",
+                "comment": "No sabía que el cepillo de dientes podía influir tanto.",
+                "replies": []
             },
             {
                 "user": [
                     3
                 ],
-                "commentdate": "December 27",
-                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.",
+                "commentdate": "27 diciembre",
+                "comment": "A veces subestimamos la importancia de un buen cepillo.",
                 "replies": []
             }
         ]

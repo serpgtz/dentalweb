@@ -11,7 +11,7 @@ class Content extends Component {
     }
     // Open window
     openSocialPopup(social) {
-        window.open(social.link, "MsgWindow", "width=600,height=600")
+        window.open(social.link, "MsgWindow", "width=600,height=600");
         // alert(social.title)
     }
     render() {
@@ -55,13 +55,15 @@ class Content extends Component {
                                         </div>
                                     </div>
                                     {/* Post Meta End */}
+
                                     {/* Comments Start */}
+                                    {/*
                                     <div className="section pb-0">
                                         <h3>Comments</h3>
                                         <div className="comments-list">
                                             {item.reviews.map((review, i) => (
                                                 <ul key={i}>
-                                                    {/* Data */}
+                                                    {/* Data *//*}
                                                     <li className="comment-item">
                                                         {getAuthor(review.user).map((user, i) => (
                                                             <img key={i} src={process.env.PUBLIC_URL + "/" + user.image} alt={user.name} />
@@ -75,7 +77,7 @@ class Content extends Component {
                                                             </div>
                                                         ))}
                                                     </li>
-                                                    {/* Data */}
+                                                    {/* Data *//*}
 
                                                     {review.replies.map((review, i) => (
                                                         <li className="comment-item" key={i}>
@@ -92,7 +94,7 @@ class Content extends Component {
                                                             ))}
                                                         </li>
                                                     ))}
-                                                    {/* Data */}
+                                                    {/* Data *//*}
                                                 </ul>
                                             ))}
                                         </div>
@@ -123,13 +125,16 @@ class Content extends Component {
                                             </form>
                                         </div>
                                     </div>
+                                    */}
                                     {/* Comments End */}
                                 </div>
                             </div>
                             {/* Sidebar Start */}
+                            {/*
                             <div className="col-lg-4">
                                 <Sidebar />
                             </div>
+                            */}
                             {/* Sidebar End */}
                         </div>
                     </div>

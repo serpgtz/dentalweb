@@ -43,10 +43,10 @@ class Headertwo extends Navhelper {
                                     <ul className="sigma_header-top-nav">
                                         <li> <Link to="#"><i className="fab fa-facebook-f" /></Link>
                                         </li>
-                                        <li> <Link to="#"><i className="fab fa-twitter" /></Link>
+                                        <li> <Link to="#"><i className="fab fa-instagram" /></Link>
                                         </li>
-                                        <li> <Link to="#"><i className="fab fa-linkedin-in" /></Link>
-                                        </li>
+                                        {/* <li> <Link to="#"><i className="fab fa-linkedin-in" /></Link>
+                                        </li> */}
                                         <li> <Link to="#"><i className="fab fa-google" /></Link>
                                         </li>
                                     </ul>

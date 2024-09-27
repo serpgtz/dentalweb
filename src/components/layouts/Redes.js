@@ -11,11 +11,9 @@ class Redes extends Component {
                             <Link to="#"><i className="fab fa-facebook-f" /></Link>
                         </li>
                         <li>
-                            <Link to="#"><i className="fab fa-twitter" /></Link>
+                            <Link to="#"><i className="fab fa-instagram" /></Link>
                         </li>
-                        <li>
-                            <Link to="#"><i className="fab fa-linkedin-in" /></Link>
-                        </li>
+                        
                         <li>
                             <Link to="#"><i className="fab fa-google" /></Link>
                         </li>

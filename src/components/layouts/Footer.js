@@ -117,12 +117,12 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Subscribe</h5>
+                                    {/* <h5 className="widget-title">Subscribe</h5>
                                     <form>
                                         <input type="email" name="email" placeholder="Email" required />
                                         <button type="button" className="mt-3 btn-block">Subscribe</button>
                                         <p className="mb-0 mt-3">Get The Latest Updates via email. Any time you may unsubscribe</p>
-                                    </form>
+                                    </form> */}
                                 </div>
                             </div>
                         </div>

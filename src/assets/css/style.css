@@ -1822,7 +1822,8 @@ table img {
 }
 .sigma_header-top-contacts .sigma_header-top-nav li a:hover,
 .sigma_header.style-1 .sigma_header-top-contacts .sigma_header-top-nav li a:hover {
-  background-color: var(--thm-base);
+  /* background-color: var(--thm-base); */
+  transform: scale(1.2); /* Zoom */
   color: #fff;
 }
 
@@ -10896,7 +10897,7 @@ background-color: var(--thm-border);
 .redes .sigma_header-top-nav li a {
   color: #fff; /* Cambia el color de los iconos a blanco */
   background-color: transparent; /* Elimina el fondo */
-  margin-right: 30px; /* Ajusta el espacio entre los iconos */
+  margin-right: 40px; /* Ajusta el espacio entre los iconos */
   transition: color 0.3s ease; /* Transición suave */
 }
 
@@ -10912,9 +10913,9 @@ background-color: var(--thm-border);
 
 /* Aumentar el tamaño de los íconos */
 .redes .sigma_header-top-nav li a i {
-  font-size: 30px; /* Ajusta el tamaño de los íconos */
+  font-size: 40px; /* Ajusta el tamaño de los íconos */
   vertical-align: middle; /* Alineación vertical */
-  margin-right: 20px; /* Ajusta el espacio entre los íconos */
+  margin-right: 80px; /* Ajusta el espacio entre los íconos */
 }
 
 /* Mueve los íconos más hacia la izquierda */

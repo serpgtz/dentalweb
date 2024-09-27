@@ -8,11 +8,6 @@
                 "id": 1.1,
                 "link": "/",
                 "linkText": "Home v1"
-            },
-            {
-                "id": 1.2,
-                "link": "/home-v2",
-                "linkText": "Home v2"
             }
         ]
     },
