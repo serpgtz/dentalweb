@@ -8,11 +8,10 @@ class Whyus extends Component {
                 <div className="col-lg-5 order-2 order-lg-1">
                     <div className="sigma_about style-21">
                         <div className="section-title">
-                            <h3 className="title text-white">Why Choose Docfind Clinic?</h3>
+                            <h3 className="title text-white">Por que Elegirnos?</h3>
                         </div>
                         <div className="sigma_about-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. It is a long established fact that a reader
-                                will be Lorem ipsum dolor sit amet consectetur.</p>
+                            <p>En nuestra clínica, nos comprometemos a ofrecer la mejor atención dental con tecnología avanzada y un enfoque personalizado. Nuestro equipo de profesionales está dedicado a brindarte una experiencia cómoda y resultados excepcionales.</p>
                             {/* Data */}
                             {whyus.slice(0, 2).map((item, i) => (
                                 <div className="sigma_info style-15" key={i}>

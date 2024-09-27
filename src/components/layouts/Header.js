@@ -41,7 +41,10 @@ class Header extends Navhelper {
                                 </div>
                                 <div className="sigma_header-top-contacts">
                                     <ul className="sigma_header-top-nav">
-                                        <li> <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                                         <li>
+                                            <a href="https://www.facebook.com/DentalDiazmxl" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-facebook-f" />
+                                            </a>
                                         </li>
                                         <li> <Link to="#"><i className="fab fa-twitter" /></Link>
                                         </li>

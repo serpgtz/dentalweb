@@ -53,8 +53,9 @@ function socialShare(title) {
             title: "facebook",
             iconClass: "fab fa-facebook-f",
             iconStyle: "fb",
-            link: "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pageUrl) + ""
+            link: "https://www.facebook.com/DentalDiazmxl"
         },
+        
         {
             title: "twitter",
             iconClass: "fab fa-twitter",

@@ -45,10 +45,10 @@ class Content extends Component {
                                                 {/* Data */}
                                                 {socialShare(item.title).map((social, i) => (
                                                     <li key={i}>
-                                                        <Link to="#" onClick={(e) => this.openSocialPopup(social, i)}>
-                                                            <i className={social.iconClass} />
-                                                        </Link>
-                                                    </li>
+                                                    <a href={social.link} target="_blank" rel="noopener noreferrer">
+                                                        <i className={social.iconClass} />
+                                                    </a>
+                                                </li>
                                                 ))}
                                                 {/* Data */}
                                             </ul>

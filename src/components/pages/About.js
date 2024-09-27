@@ -5,14 +5,14 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/about/Content';
 
-const pagelocation = "About Us";
+const pagelocation = "Sobre Nosotros";
 
 class About extends Component {
     render() {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Docfind - Doctors Appointment Booking - React Template | {pagelocation}</title>
+                    <title>Dental Diaz | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

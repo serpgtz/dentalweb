@@ -30,8 +30,8 @@ class Content extends Component {
                 <div className="section section-padding bg-gray">
                     <div className="container">
                         <div className="section-title centered">
-                            <span className="subtitle">What We do</span>
-                            <h3 className="title">Our Services</h3>
+                            <span className="subtitle">Que Hacemos</span>
+                            <h3 className="title">Nuestros Servicios</h3>
                         </div>
                         <Servicesimage />
                         <div className="margin-negative">

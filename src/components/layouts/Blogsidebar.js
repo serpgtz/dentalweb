@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import tags from "../../data/tags.json";
-import category from "../../data/category.json";
 import { getRecentPost } from "../../helper/blogHelper";
 import { getCategories, getAuthor, getNameInitials } from "../../helper/helper";
 
@@ -20,7 +19,6 @@ class Blogsidebar extends Component {
     }
     handleSubmit(e) {
         e.preventDefault();
-        //const { history } = this.props;
         if (this.state.searchText === "") {
             return;
         } else {
@@ -31,7 +29,7 @@ class Blogsidebar extends Component {
         return (
             <div className="sidebar">
                 {/* Search Widget */}
-                <div className="widget widget-search">
+                {/* <div className="widget widget-search">
                     <form onSubmit={this.handleSubmit} method="GET">
                         <div className="input-group">
                             <input type="text" placeholder="Search" name="searchText" value={this.state.searchText} onChange={this.onChange} required />
@@ -42,20 +40,20 @@ class Blogsidebar extends Component {
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> */}
                 {/* Category Widget */}
+                {/* 
                 <div className="widget widget-categories">
                     <h5 className="widget-title">Categories</h5>
                     <ul>
-                        {/* Data */}
                         {category.map((item, i) => (
                             <li key={i}>
                                 <Link to={"/blog/cat/" + item.id}>{item.title} <span>{item.count}</span></Link>
                             </li>
                         ))}
-                        {/* Data */}
                     </ul>
                 </div>
+                */}
                 {/* Recent Posts Widget */}
                 <div className="widget widget-sigma-recent-posts">
                     <h5 className="widget-title">Recent Post</h5>
@@ -80,13 +78,13 @@ class Blogsidebar extends Component {
                     {/* Data */}
                 </div>
                 {/* Subscribe Widget */}
-                <div className="widget widget-newsletter">
+                {/* <div className="widget widget-newsletter">
                     <h5 className="widget-title">Join Newsletter</h5>
                     <form>
                         <input type="email" name="email" placeholder="Enter your email" />
                         <button type="button" className="btn-block mt-4">Subscribe</button>
                     </form>
-                </div>
+                </div> */}
                 {/* Recent Posts Widget */}
                 <div className="widget widget-sigma-recent-posts style-3">
                     <h5 className="widget-title">Recent Post</h5>

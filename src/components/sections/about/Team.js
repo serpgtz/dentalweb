@@ -8,8 +8,8 @@ class Team extends Component {
             <div className="section section-padding bg-gray">
                 <div className="container">
                     <div className="section-title centered">
-                        <span className="subtitle">Meet Our Team</span>
-                        <h3 className="title mb-0">Our Creative Team</h3>
+                        <span className="subtitle">Conoce a nuesto Equipo</span>
+                        <h3 className="title mb-0">Somos Dental Diaz!!</h3>
                     </div>
                     <div className="row">
                         {/* Data */}

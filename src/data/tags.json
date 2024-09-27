@@ -1,22 +1,22 @@
 [
     {
         "id":1,
-        "title":"Destinations"
+        "title":"Dental"
     },
     {
         "id":2,
-        "title":"Hotels"
+        "title":"Higiene Bucal"
     },
     {
         "id":3,
-        "title":"News"
+        "title":"Nutrición y Dieta"
     },
     {
         "id":4,
-        "title":"StartUp"
+        "title":"Salud General"
     },
     {
         "id":5,
-        "title":"Strategy"
+        "title":"Bienestar y Autoestima"
     }
 ]
