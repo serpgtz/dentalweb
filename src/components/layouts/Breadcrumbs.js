@@ -11,7 +11,7 @@ class Breadcrumbs extends Component {
                     </div>
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item">
-                            <Link to="/" className="btn-link">Home</Link>
+                            <Link to="/" className="btn-link">Inicio</Link>
                         </li>
                         <li className="breadcrumb-item active" aria-current="page">{this.props.breadcrumb.pagename}</li>
                     </ol>

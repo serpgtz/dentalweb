@@ -34,7 +34,7 @@ class Header extends Navhelper {
                                         <li>
                                         <a href="https://www.google.com.mx/maps/place/Dental+Diaz/@32.6369644,-115.436959,17z/data=!4m15!1m8!3m7!1s0x80d77127a2c0d655:0x86acb3965b5add76!2sDental+Diaz!8m2!3d32.6369599!4d-115.4343841!10e1!16s%2Fg%2F11k50jvfjk!3m5!1s0x80d77127a2c0d655:0x86acb3965b5add76!8m2!3d32.6369599!4d-115.4343841!16s%2Fg%2F11k50jvfjk?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                                             <i className="fal fa-map-marker-alt" />
-                                                 Oakwood, Los Angeles, CA 1098
+                                                 Mexicali, Baja California
                                         </a>
                                         </li>
                                     </ul>
@@ -46,10 +46,8 @@ class Header extends Navhelper {
                                                 <i className="fab fa-facebook-f" />
                                             </a>
                                         </li>
-                                        <li> <Link to="#"><i className="fab fa-twitter" /></Link>
-                                        </li>
-                                        <li> <Link to="#"><i className="fab fa-linkedin-in" /></Link>
-                                        </li>
+                                       
+                                        
                                         <li> <Link to="#"><i className="fab fa-google" /></Link>
                                         </li>
                                     </ul>

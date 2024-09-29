@@ -15,8 +15,8 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Our Address</p>
-                                <p className="secondary-color"><b>Drive Chicago, IL 60607</b>
+                                <p>Nuestra Dirección</p>
+                                <p className="secondary-color"><b>Lombardo Toledano, Juventud 2000</b>
                                 </p>
                             </div>
                         </div>
@@ -27,8 +27,8 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Call Us</p>
-                                <p className="secondary-color"><b>360-779-2228</b>
+                                <p>Llamanos</p>
+                                <p className="secondary-color"><b>6868 38 01 08</b>
                                 </p>
                             </div>
                         </div>
@@ -61,22 +61,24 @@ class Footer extends Component {
                                         </div>
                                     </div>
                                     <ul className="sigma_social-icons has-border mt-4 justify-content-start">
-                                        <li>
-                                            <Link to="#"><i className="fab fa-facebook-f" /></Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-twitter" /></Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-instagram" /></Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-linkedin" /></Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-google" /></Link>
-                                        </li>
-                                    </ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/DentalDiazmxl" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </li>
+
+                                        
+                                    <li>
+                                        <a href="https://www.instagram.com/dental_diazmxli/" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+
+                                        
+                                    <li>
+                                        <Link to="#"><i className="fab fa-google" /></Link>
+                                    </li>
+                                </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-3">

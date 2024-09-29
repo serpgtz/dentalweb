@@ -8,11 +8,17 @@ class Redes extends Component {
                 <div className='container redes'> {/* Asegúrate de que este div tenga la clase 'redes' */}
                     <ul className="sigma_header-top-nav">
                         <li>
-                            <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                            <a href="https://www.facebook.com/DentalDiazmxl" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-facebook-f" />
+                            </a>
                         </li>
+
                         <li>
-                            <Link to="#"><i className="fab fa-instagram" /></Link>
+                            <a href="https://www.instagram.com/dental_diazmxli/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-instagram" />
+                            </a>
                         </li>
+
                         
                         <li>
                             <Link to="#"><i className="fab fa-google" /></Link>
