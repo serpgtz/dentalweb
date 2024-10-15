@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { getBlog } from '../../../helper/blogHelper';
-import { getAuthor, socialShare } from '../../../helper/helper';
 import Sidebar from '../../layouts/Blogsidebar';
 
 class Content extends Component {
@@ -12,7 +10,6 @@ class Content extends Component {
     // Open window
     openSocialPopup(social) {
         window.open(social.link, "MsgWindow", "width=600,height=600");
-        // alert(social.title)
     }
     render() {
         const detailId = this.props.detailId;
@@ -26,44 +23,18 @@ class Content extends Component {
                                 <div className="sigma_post-details-inner">
                                     <div className="entry-content">
                                         <img src={process.env.PUBLIC_URL + "/" + item.image[0]} alt={item.title} className="w-100" />
-                                        <div className="sigma_post-details-meta">
-                                            {getAuthor(item.author).map((author, i) => (
-                                                <span key={i}> <i className="far fa-user" /> By
-                                                    {author.name}</span>
-                                            ))}
-                                            <span> <i className="far fa-calendar-alt" /> {item.postdate}</span>
-                                        </div>
                                         <h2 className="entry-title">{item.title}</h2>
                                         <div dangerouslySetInnerHTML={{ __html: item.htmltext }} />
                                     </div>
                                     <hr />
-                                    {/* Post Meta Start */}
-                                    <div className="sigma_post-details-meta">
-                                        <div className="sigma_post-details-meta-item sigma_post-share">
-                                            <h5 className="mb-0">Share:</h5>
-                                            <ul className="sigma_sm ml-4">
-                                                {/* Data */}
-                                                {socialShare(item.title).map((social, i) => (
-                                                    <li key={i}>
-                                                    <a href={social.link} target="_blank" rel="noopener noreferrer">
-                                                        <i className={social.iconClass} />
-                                                    </a>
-                                                </li>
-                                                ))}
-                                                {/* Data */}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    {/* Post Meta End */}
-
+                                    {/* Post Meta Removed */}
                                     {/* Comments Start */}
-                                    {/*
+                                    {/* 
                                     <div className="section pb-0">
                                         <h3>Comments</h3>
                                         <div className="comments-list">
                                             {item.reviews.map((review, i) => (
                                                 <ul key={i}>
-                                                    {/* Data *//*}
                                                     <li className="comment-item">
                                                         {getAuthor(review.user).map((user, i) => (
                                                             <img key={i} src={process.env.PUBLIC_URL + "/" + user.image} alt={user.name} />
@@ -77,8 +48,6 @@ class Content extends Component {
                                                             </div>
                                                         ))}
                                                     </li>
-                                                    {/* Data *//*}
-
                                                     {review.replies.map((review, i) => (
                                                         <li className="comment-item" key={i}>
                                                             {getAuthor(review.user).map((user, i) => (
@@ -94,7 +63,6 @@ class Content extends Component {
                                                             ))}
                                                         </li>
                                                     ))}
-                                                    {/* Data *//*}
                                                 </ul>
                                             ))}
                                         </div>
@@ -130,7 +98,7 @@ class Content extends Component {
                                 </div>
                             </div>
                             {/* Sidebar Start */}
-                            {/*
+                            {/* 
                             <div className="col-lg-4">
                                 <Sidebar />
                             </div>

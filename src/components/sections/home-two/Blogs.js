@@ -9,8 +9,8 @@ class Blogs extends Component {
             <div className="section section-padding pt-0">
                 <div className="container">
                     <div className="section-title centered">
-                        <span className="subtitle">Latest News</span>
-                        <h3 className="title">Our Insights &amp; Articles</h3>
+                        <span className="subtitle">Lo Más Reciente</span>
+                        <h3 className="title">Nuestros Artículos y Reflexiones</h3>
                     </div>
                     <div className="row">
                         {/* Data */}

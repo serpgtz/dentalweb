@@ -10,12 +10,12 @@ class Workprocess extends Component {
                     <div className="row align-items-center mb-5">
                         <div className="col-lg-5">
                             <div className="section-title">
-                                <span className="subtitle">Work Process</span>
-                                <h3 className="title mb-0">How it Works?</h3>
+                                <span className="subtitle">Contáctanos</span>
+                                <h3 className="title mb-0">¿Cómo te atendemos?</h3>
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <p className="mb-0">Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis.</p>
+                            <p className="mb-0">Llámanos o visítanos en cualquiera de nuestras dos clínicas, o a los teléfonos 686 838 01 08 y 686 517 16 83, o desde EE.UU. al 011+52 (686) 517 16 83.</p>
                         </div>
                         <div className="col-lg-3 text-lg-right">
                             <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Make Appointment</Link>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import instagram from "../../data/instagram.json";
 import Slider from "react-slick";
-import { Link } from 'react-router-dom';
 
 const settings = {
     slidesToShow: 5,
@@ -26,18 +25,19 @@ const settings = {
         }
     ]
 }
+
 class Galleryslider extends Component {
     render() {
         return (
             <div className="sigma_instagram style-1 insta-images">
                 <Slider {...settings} className="sigma_instagram-slider">
-                    {/* Data */}
+                    {/* Renderización de datos sin enlaces */}
                     {instagram.map((item, i) => (
-                        <Link to="/doctor-grid" key={i}>
-                            <img src={process.env.PUBLIC_URL + "/" + item.image} alt="img" />
-                        </Link>
+                        <div key={item.id || i}>  {/* Usa un div simple para envolver la imagen */}
+                            <img src={`${process.env.PUBLIC_URL}/${item.image}`} alt="img" />
+                        </div>
                     ))}
-                    {/* Data */}
+                    {/* Fin de renderización de datos */}
                 </Slider>
             </div>
         );

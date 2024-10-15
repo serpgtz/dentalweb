@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import serviceblock from "../../../data/service/service.json"
 
 class Servicestwo extends Component {
@@ -20,7 +19,7 @@ class Servicestwo extends Component {
                                 </div>
                                 <div className="sigma_service-body">
                                     <h5>
-                                        <Link to={"/service-details/" + item.id}>{item.title}</Link>
+                                        <span className="sigma_service-title">{item.title}</span>
                                     </h5>
                                     <p>{item.shorttext.slice(0, 150)}</p>
                                 </div>
