@@ -2,19 +2,19 @@
     {
         "id":1,
         "icon":"flaticon-pharmacy",
-        "title":"Search Best Online <br> Professional",
-        "text":"It is a long established fact that a reader will be distracted by the readable."
+        "title":"Elige una sucursal <br> Dental Díaz ",
+        "text":"Ubica la clínica Dental Díaz de tu preferencia, en Colonia Independencia o Fraccionamiento Juventud 2000."
     },
     {
         "id":2,
         "icon":"flaticon-event",
-        "title":"Get Instant <br> Appointment",
-        "text":"It is a long established fact that a reader will be distracted by the readable."
+        "title":"Puedes agendar cita <br> por teléfono",
+        "text":"Puedes agendar cita llamándonos a los teléfonos 686 838 01 08 y 686 517 16 83, o desde Estados Unidos al 011 +52 (686) 517 16 83"
     },
     {
         "id":3,
         "icon":"flaticon-doctor",
-        "title":"Leave Your <br> Feedback",
-        "text":"It is a long established fact that a reader will be distracted by the readable."
+        "title":"Asiste a tu <br> Cita",
+        "text":"Visítanos en la clínica Dental Díaz de tu elección y recibe la mejor atención de nuestros profesionales para que mejores tu salud dental."
     }
 ]

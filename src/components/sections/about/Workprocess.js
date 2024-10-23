@@ -18,7 +18,7 @@ class Workprocess extends Component {
                             <p className="mb-0">Llámanos o visítanos en cualquiera de nuestras dos clínicas, o a los teléfonos 686 838 01 08 y 686 517 16 83, o desde EE.UU. al 011+52 (686) 517 16 83.</p>
                         </div>
                         <div className="col-lg-3 text-lg-right">
-                            <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Make Appointment</Link>
+                            {/* <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Make Appointment</Link> */}
                         </div>
                     </div>
                     <div className="row sigma_info-wrapper style-25">
@@ -34,7 +34,7 @@ class Workprocess extends Component {
                                     <div className="sigma_info-description mt-4 mt-xl-0">
                                         <h5 dangerouslySetInnerHTML={{ __html: item.title }} />
                                         <p>{item.text}</p>
-                                        <span className="steps">Step {1 + i}</span>
+                                        <span className="steps">Paso {1 + i}</span>
                                         <span className="pulsive-dot" />
                                     </div>
                                 </div>
