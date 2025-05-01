@@ -13,7 +13,7 @@ class Banner extends Component {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <h5 className="primary-color">Markets &amp; Resources</h5>
+                                    <h5 className="primary-color">Hacemos Diferencia</h5>
                                     <h1 className="title">
                                     Experiencia y profesionalismo al cuidado de tu salud dental
                                     </h1>

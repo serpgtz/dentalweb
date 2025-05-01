@@ -40,7 +40,7 @@ class Contacthelper extends Component {
     }
     handleSubmit(e) {
         e.preventDefault();
-        fetch('https://metropolitanhost.com/scripts/sendmail.php', {
+        fetch('http://dentaldiazmxli.com/api/contacto', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {

@@ -9,35 +9,35 @@ class Contactform extends Contacthelper {
             <div className="section pt-0">
                 <div className="container">
                     <div className="section-title centered">
-                        <span className="subtitle">Call to Action</span>
-                        <h3 className="title">Make a Request</h3>
+                        <span className="subtitle">Contáctanos ahora</span>
+                        <h3 className="title">Solicitar información</h3>
                     </div>
                     <div className="sigma_form style-2">
                         <form onSubmit={this.handleSubmit} method="GET">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <input type="text" placeholder="Enter Full Name" name="name" value={this.state.name} onChange={this.onNameChange} required />
+                                        <input type="text" placeholder="Ingrese su nombre completo" name="name" value={this.state.name} onChange={this.onNameChange} required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <input type="email" placeholder="Email Address" name="email" value={this.state.email} onChange={this.onEmailChange} required />
+                                        <input type="email" placeholder="Correo electrónico" name="email" value={this.state.email} onChange={this.onEmailChange} required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <input type="number" placeholder="Phone number" name="phone" value={this.state.phone} onChange={this.onPhoneChange} required />
+                                        <input type="number" placeholder="Número de teléfono" name="phone" value={this.state.phone} onChange={this.onPhoneChange} required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <input type="text" placeholder="Subject" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
+                                        <input type="text" placeholder="Asunto" name="subject" value={this.state.subject} onChange={this.onSubjectChange} required />
                                     </div>
                                 </div>
                                 <div className="col-12">
                                     <div className="form-group">
-                                        <textarea rows={10} placeholder="Enter Message" name="message" value={this.state.message} onChange={this.onMessageChange} required />
+                                        <textarea rows={10} placeholder="Tu Mensaje" name="message" value={this.state.message} onChange={this.onMessageChange} required />
                                     </div>
                                 </div>
                                 <ReCAPTCHA
@@ -46,13 +46,13 @@ class Contactform extends Contacthelper {
                                     size="invisible"
                                 />
                                 <div className="col-12 text-center">
-                                    <button type="submit">Submit Request</button>
+                                    <button type="submit">Enviar Mensaje</button>
                                     {/* Form Messages */}
                                     <Alert variant="success" className="d-none mt-3 mb-0" id="server_response_success">
-                                        <strong>Success!</strong> Contact form has been successfully submitted.
+                                        <strong>Success!</strong> El formulario de contacto ha sido enviado con éxito.
                                     </Alert>
                                     <Alert variant="danger" className="d-none mt-3 mb-0" id="server_response_danger">
-                                        <strong>Oops!</strong> Something bad happened. Please try again later.
+                                        <strong>Oops!</strong> Algo salió mal. Por favor, inténtalo de nuevo más tarde.
                                     </Alert>
                                     {/* Form Messages */}
                                 </div>

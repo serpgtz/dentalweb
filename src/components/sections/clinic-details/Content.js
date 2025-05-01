@@ -179,7 +179,7 @@ class Content extends Component {
                                                 <textarea name="message" rows={5} placeholder="Message" required />
                                             </div>
                                             <button type="button" className="sigma_btn btn-block btn-sm">
-                                                Send Message
+                                                Enviar Mensaje
                                                 <i className="fal fa-arrow-right ml-3" />
                                             </button>
                                         </form>
@@ -187,7 +187,7 @@ class Content extends Component {
                                 </div>
                                 {/* Contact Widget */}
                                 <div className="widget">
-                                    <h5 className="widget-title">Contact</h5>
+                                    <h5 className="widget-title">Contacto</h5>
                                     <div className="widget-inner">
                                         <div className="sigma_info style-24 p-0 shadow-none">
                                             <div className="sigma_info-title">
@@ -196,8 +196,8 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Phone</h5>
-                                                <p>Phone No.: {item.phone}</p>
+                                                <h5>Telefonos</h5>
+                                                <p>Numero de telefono.: {item.phone}</p>
                                             </div>
                                         </div>
                                         <div className="sigma_info style-24 p-0 shadow-none">
@@ -207,7 +207,7 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Email</h5>
+                                                <h5>Correo Electronico</h5>
                                                 <p>Inquiries: {item.email}</p>
                                             </div>
                                         </div>
@@ -218,7 +218,7 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Address</h5>
+                                                <h5>Ubicaciones</h5>
                                                 <p>{item.location}</p>
                                             </div>
                                         </div>

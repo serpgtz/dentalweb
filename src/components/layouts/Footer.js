@@ -39,8 +39,8 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Our Mail</p>
-                                <p className="secondary-color"><b>example@example.com</b>
+                                <p>Nuestro correo"</p>
+                                <p className="secondary-color"><b>contacto@dentaldiaz.com</b>
                                 </p>
                             </div>
                         </div>
@@ -56,8 +56,7 @@ class Footer extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-sm-9">
-                                            <p className="mb-0">It is a long established fact that a reader will be distracted by the
-                                                readable.</p>
+                                            <p className="mb-0">Tu sonrisa es nuestra prioridad. Confía en nuestros especialistas para cuidar de tu salud bucal.</p>
                                         </div>
                                     </div>
                                     <ul className="sigma_social-icons has-border mt-4 justify-content-start">
@@ -83,7 +82,7 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-3">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Services</h5>
+                                    <h5 className="widget-title">Servicios</h5>
                                     <ul className="sigma_footer-links">
                                         {/* Data */}
                                         {serviceblock.slice(0, 5).map((item, i) => (
@@ -97,22 +96,22 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-2 col-sm-3">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Useful Links</h5>
+                                    <h5 className="widget-title">Explora</h5>
                                     <ul className="sigma_footer-links">
                                         <li>
                                             <Link to="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link to="/about">About Us</Link>
+                                            <Link to="/about">Sobre Nosotros</Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog">News</Link>
+                                            <Link to="/blog">Artículos</Link>
                                         </li>
                                         <li>
                                             <Link to="/doctor-grid">Doctors</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">Contact Us</Link>
+                                            <Link to="/contact">Contáctanos</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -133,7 +132,7 @@ class Footer extends Component {
                 <div className="container">
                     <div className="sigma_footer-bottom d-block d-sm-flex align-items-center justify-content-between">
                         <div className="sigma_footer-copyright mt-0 mb-3 mb-sm-0">
-                            <p className="mb-0">© Website <Link to="#">2022</Link> | All Rights Reserved
+                            <p className="mb-0">© Website 2024 Dental Díaz |  Todos los derechos reservados
                             </p>
                         </div>
                         <ul className="sigma_footer-links">

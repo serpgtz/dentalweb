@@ -7,7 +7,7 @@ class Testimonials extends Component {
         return (
             <div className="container">
                 <div className="section-title centered">
-                    <span className="subtitle">Client Testimonials</span>
+                    <span className="subtitle">Testimonios de nuestros pacientes</span>
                     <h3 className="title">Lo que nuestros Clientes Dicen:</h3>
                 </div>
                 <div className="row">

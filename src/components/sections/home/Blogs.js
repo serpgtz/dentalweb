@@ -57,7 +57,7 @@ class Blogs extends Component {
                                             </h5>
                                         </div>
                                         <Link to={"/blog-details/" + item.id} className="btn-link">
-                                            Read more
+                                           leer más
                                         </Link>
                                     </div>
                                 </article>

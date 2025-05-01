@@ -107,7 +107,7 @@ class Headertwo extends Navhelper {
                                         {/* Data */}
                                     </ul>
                                     <div className="sigma_header-controls style-2">
-                                        <ul className="sigma_header-controls-inner">
+                                        {/* <ul className="sigma_header-controls-inner">
                                             <li className="d-none d-sm-block ml-5">
                                                 <Link to="/doctor-grid" className="sigma_btn btn-sm">
                                                     Find A Doctor
@@ -119,7 +119,7 @@ class Headertwo extends Navhelper {
                                                 <span />
                                                 <span />
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>

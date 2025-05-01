@@ -14,8 +14,8 @@ class Contacticons extends Component {
                                     </span>
                                 </div>
                                 <div className="sigma_info-description">
-                                    <h5>Our Address</h5>
-                                    <p>PSD Building, 2 Tower St, United States.</p>
+                                    <h5>Ubicaciones</h5>
+                                    <p>Lombardo Toledano 760 Juventud 2000 Y Teresa de Mier 800 Independencia</p>
                                 </div>
                             </div>
                         </div>
@@ -27,9 +27,9 @@ class Contacticons extends Component {
                                     </span>
                                 </div>
                                 <div className="sigma_info-description">
-                                    <h5>Our Phone</h5>
-                                    <p>Telephone: 0029129102320</p>
-                                    <p>Mobile: 000 2324 39493</p>
+                                    <h5>Teléfonos de contacto</h5>
+                                    <p>Tel 6868 38 01 08</p>
+                                    <p>Tel 6865 17 16 83</p>
                                 </div>
                             </div>
                         </div>
@@ -41,9 +41,8 @@ class Contacticons extends Component {
                                     </span>
                                 </div>
                                 <div className="sigma_info-description">
-                                    <h5>Our Email</h5>
-                                    <p>Main Email: example@example.com</p>
-                                    <p>Inquiries: example@example.com</p>
+                                    <h5>Correo electronico</h5>
+                                    <p>Contacto@dentaldiaz.com</p>
                                 </div>
                             </div>
                         </div>
