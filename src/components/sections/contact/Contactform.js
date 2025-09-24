@@ -2,6 +2,8 @@ import React from 'react';
 import Contacthelper from '../../../helper/Contacthelper';
 import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 class Contactform extends Contacthelper {
     render() {
@@ -45,6 +47,15 @@ class Contactform extends Contacthelper {
                                     onChange={this.reCaptchaLoaded.bind(this)}
                                     size="invisible"
                                 />
+                                <div className="col-12">
+                                    <div className="form-group form-check">
+                                        <input type="checkbox" id="acceptPrivacy" name="acceptPrivacy" />
+                                        <label htmlFor="acceptPrivacy" style={{ marginLeft: 8 }}>
+                                        He leído y acepto el <Link to="/aviso-privacidad">Aviso de Privacidad</Link>.
+                                        </label>
+                                    </div>
+                                </div>
+
                                 <div className="col-12 text-center">
                                     <button type="submit">Enviar Mensaje</button>
                                     {/* Form Messages */}
