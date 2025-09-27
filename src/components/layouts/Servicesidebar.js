@@ -8,18 +8,19 @@ class Servicesidebar extends Component {
         return (
             <div className="sidebar">
                 {/* Category Widget */}
-                <div className="widget widget-categories">
-                    <h5 className="widget-title">Categories</h5>
-                    <ul>
-                        {/* Data */}
-                        {category.map((item, i) => (
-                            <li key={i}>
-                                <Link to={"/service/cat/" + item.id}>{item.title} <span>{item.count}</span></Link>
-                            </li>
-                        ))}
-                        {/* Data */}
-                    </ul>
-                </div>
+                    {/*
+<div className="widget widget-categories">
+    <h5 className="widget-title">Categories</h5>
+    <ul>
+        {category.map((item, i) => (
+            <li key={i}>
+                <Link to={"/service/cat/" + item.id}>{item.title} <span>{item.count}</span></Link>
+            </li>
+        ))}
+    </ul>
+</div>
+*/}
+
                 {/* Recent services Widget */}
                 <div className="widget widget-sigma-recent-posts">
                     <h5 className="widget-title">Recent posts</h5>
