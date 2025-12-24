@@ -56,7 +56,7 @@ class Blogsidebar extends Component {
                 */}
                 {/* Recent Posts Widget */}
                 <div className="widget widget-sigma-recent-posts">
-                    <h5 className="widget-title">Recent Post</h5>
+                    <h5 className="widget-title">hekk Post</h5>
                     {/* Data */}
                     {getRecentPost().map((item, i) => (
                         <div className="sigma_recent-post" key={i}>
