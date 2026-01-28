@@ -1,6 +1,6 @@
 import React from 'react';
 import Contacthelper from '../../../helper/Contacthelper';
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
 
 class Contactform extends Contacthelper {
@@ -40,11 +40,11 @@ class Contactform extends Contacthelper {
                                         <textarea rows={10} placeholder="Tu Mensaje" name="message" value={this.state.message} onChange={this.onMessageChange} required />
                                     </div>
                                 </div>
-                                <ReCAPTCHA
+                                {/* <ReCAPTCHA
                                     sitekey="6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib"
                                     onChange={this.reCaptchaLoaded.bind(this)}
                                     size="invisible"
-                                />
+                                /> */}
                                 <div className="col-12 text-center">
                                     <button type="submit">Enviar Mensaje</button>
                                     {/* Form Messages */}
