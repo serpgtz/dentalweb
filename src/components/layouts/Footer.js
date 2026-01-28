@@ -148,6 +148,10 @@ class Footer extends Component {
                             <li>
                                 <Link to="#">Help</Link>
                             </li>
+                            <li>
+                                <Link to="/aviso-privacidad">Aviso de Privacidad</Link>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

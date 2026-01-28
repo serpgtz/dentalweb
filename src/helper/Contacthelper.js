@@ -40,6 +40,13 @@ class Contacthelper extends Component {
     }
     handleSubmit(e) {
         e.preventDefault();
+        // Validar checkbox de Aviso de Privacidad
+        const acceptCheckbox = document.getElementById('acceptPrivacy');
+        if (!acceptCheckbox || !acceptCheckbox.checked) {
+            alert('Debes aceptar el Aviso de Privacidad para enviar el formulario.');
+            return;
+        }
+
         fetch('http://dentaldiazmxli.com/api/contacto', {
             method: "POST",
             body: JSON.stringify(this.state),

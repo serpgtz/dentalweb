@@ -17,7 +17,7 @@ class Content extends Component {
                     </div>
                 </div>
                 <div className="section pb-0 bg-gray" />
-                <Team />
+                {/* <Team /> */}
                 <div className="section section-padding p-0">
                     <div className="container-fluid p-0">
                         <Galleryslider />

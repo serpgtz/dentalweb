@@ -30,6 +30,10 @@ const Contact = React.lazy(() => import("./components/pages/Contact"));
 // Extra
 const Errorpage = React.lazy(() => import("./components/pages/Errorpage"));
 
+// Aviso de Privacidad
+const AvisoPrivacidad = React.lazy(() => import("./components/pages/AvisoPrivacidad"));
+
+
 // Scroll to Top
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
   useLayoutEffect(() => {
@@ -78,6 +82,8 @@ function App() {
             <Route exact path="/doctor-list" component={Doctorlist} />
             <Route exact path="/doctor-details/:id" component={props => (<Doctordetails {...props} key={window.location.pathname} />)} />
             {/* Contact */}
+            <Route exact path="/aviso-privacidad" component={AvisoPrivacidad} />
+
             <Route exact path="/contact" component={Contact} />
             {/* Extra */}
             <Route exact path="/error-page" component={Errorpage} />
