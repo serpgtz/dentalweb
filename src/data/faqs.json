@@ -1,127 +1,111 @@
 [
     {
-        "id":1,
-        "title":"Payments",
-        "items":[
+        "id": 1,
+        "title": "Citas",
+        "items": [
             {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cómo puedo agendar una cita?",
+                "text": "Puedes agendar tu cita desde la sección Agendar Cita, por teléfono o contactándonos directamente. Te ayudaremos a elegir el horario disponible que mejor se adapte a ti."
             },
             {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Necesito cita previa para una valoración?",
+                "text": "Sí, recomendamos agendar previamente para poder atenderte con el tiempo necesario y revisar tu caso con calma."
             },
             {
-                "title":"Can I make an appointment online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Puedo cambiar o cancelar mi cita?",
+                "text": "Sí. Si necesitas cambiar o cancelar tu cita, avísanos con anticipación para ayudarte a reprogramarla."
             },
             {
-                "title":"White Plains Hospital Kendiaccepts insurance",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-            },
-            {
-                "title":"Where is White Plains Hospital Kendi'soffice located?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cuánto dura una consulta inicial?",
+                "text": "La duración puede variar según el caso, pero normalmente una valoración inicial permite revisar tu salud bucal, resolver dudas y orientarte sobre el tratamiento adecuado."
             }
         ]
     },
     {
-        "id":2,
-        "title":"Booking",
-        "items":[
+        "id": 2,
+        "title": "Servicios",
+        "items": [
             {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Qué servicios dentales ofrecen?",
+                "text": "Ofrecemos servicios como odontología general, ortodoncia, endodoncia, periodoncia, odontopediatría y estética dental."
             },
             {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Realizan limpiezas dentales?",
+                "text": "Sí, realizamos limpiezas dentales y valoraciones preventivas para ayudar a mantener dientes y encías saludables."
             },
             {
-                "title":"Can I make an appointment online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Atienden urgencias dentales?",
+                "text": "Si presentas dolor, inflamación, fractura dental o alguna molestia importante, contáctanos para orientarte y revisar disponibilidad de atención."
             },
             {
-                "title":"White Plains Hospital Kendiaccepts insurance",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Atienden niños?",
+                "text": "Sí, contamos con atención odontopediátrica para cuidar la salud bucal de niñas y niños en un ambiente amable y seguro."
             },
             {
-                "title":"Where is White Plains Hospital Kendi'soffice located?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Realizan blanqueamiento dental?",
+                "text": "Sí, ofrecemos tratamientos de estética dental, incluyendo opciones para mejorar el color y apariencia de la sonrisa después de una valoración."
             }
         ]
     },
     {
-        "id":3,
-        "title":"Mattis urna sit",
-        "items":[
+        "id": 3,
+        "title": "Tratamientos",
+        "items": [
             {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cada cuánto debo hacerme una limpieza dental?",
+                "text": "Generalmente se recomienda una limpieza cada 6 meses, aunque la frecuencia puede cambiar si hay enfermedad de encías, sarro frecuente o alguna condición específica."
             },
             {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿La limpieza dental duele?",
+                "text": "Normalmente no duele. Si tienes sensibilidad o inflamación, adaptamos el procedimiento para que sea lo más cómodo posible."
             },
             {
-                "title":"Can I make an appointment online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Qué hago si tengo dolor de muela?",
+                "text": "Lo mejor es acudir a una valoración lo antes posible. El dolor puede estar relacionado con caries profunda, infección, encías inflamadas u otras causas que requieren diagnóstico."
             },
             {
-                "title":"White Plains Hospital Kendiaccepts insurance",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cuándo necesito una endodoncia?",
+                "text": "Puede ser necesaria cuando la pulpa o nervio del diente está afectado por caries profunda, infección o traumatismo. La valoración clínica y radiográfica ayuda a confirmarlo."
             },
             {
-                "title":"Where is White Plains Hospital Kendi'soffice located?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-            },
-            {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-            },
-            {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-            },
-            {
-                "title":"Can I make an appointment online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-            },
-            {
-                "title":"White Plains Hospital Kendiaccepts insurance",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cuánto dura un tratamiento de ortodoncia?",
+                "text": "Depende de cada caso, la edad del paciente y el tipo de corrección necesaria. En la valoración se puede estimar un tiempo aproximado de tratamiento."
             }
         ]
     },
     {
-        "id":4,
-        "title":"Molestie vel augue",
-        "items":[
+        "id": 4,
+        "title": "Pagos",
+        "items": [
             {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Qué métodos de pago aceptan?",
+                "text": "Puedes consultar directamente con la clínica los métodos disponibles al momento de agendar o acudir a tu cita."
             },
             {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿El costo se define desde la primera consulta?",
+                "text": "Después de la valoración podremos explicarte el diagnóstico, las opciones de tratamiento y el costo correspondiente según tu caso."
+            },
+            {
+                "title": "¿Ofrecen facilidades de pago?",
+                "text": "Dependiendo del tratamiento, podemos orientarte sobre las opciones disponibles para organizar tu atención de la mejor manera."
             }
         ]
     },
     {
-        "id":5,
-        "title":"Eros odio",
-        "items":[
+        "id": 5,
+        "title": "Ubicación",
+        "items": [
             {
-                "title":"Can i make an Appointment Online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Dónde se encuentra la clínica?",
+                "text": "Estamos ubicados en Lombardo Toledano, Juventud 2000."
             },
             {
-                "title":"Does White Plains Hospital Kendi Offer Telehealth ?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cuál es el teléfono de contacto?",
+                "text": "Puedes comunicarte al 6868 38 01 08 para solicitar información o agendar tu cita."
             },
             {
-                "title":"Can I make an appointment online with White Plains Hospital Kendi?",
-                "text":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+                "title": "¿Cuál es el correo de contacto?",
+                "text": "Puedes escribirnos a contacto@dentaldiaz.com."
             }
         ]
     }

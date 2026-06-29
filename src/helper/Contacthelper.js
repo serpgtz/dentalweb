@@ -9,7 +9,8 @@ class Contacthelper extends Component {
             email: '',
             subject: '',
             message: '',
-            isVerified: false
+            isVerified: false,
+            recaptchaToken: ''
         }
         this.onNameChange = this.onNameChange.bind(this);
         this.onPhoneChange = this.onPhoneChange.bind(this);
@@ -36,7 +37,30 @@ class Contacthelper extends Component {
     }
     // REcaptcha
     reCaptchaLoaded(value) {
-        console.log("Captcha Successfully Loaded", value);
+        this.setState({
+            isVerified: Boolean(value),
+            recaptchaToken: value || ''
+        });
+    }
+    showServerMessage(type) {
+        const successMessage = document.getElementById("server_response_success");
+        const dangerMessage = document.getElementById("server_response_danger");
+
+        if (successMessage) {
+            successMessage.classList.remove("d-block");
+            successMessage.classList.add("d-none");
+        }
+
+        if (dangerMessage) {
+            dangerMessage.classList.remove("d-block");
+            dangerMessage.classList.add("d-none");
+        }
+
+        const message = type === 'success' ? successMessage : dangerMessage;
+        if (message) {
+            message.classList.remove("d-none");
+            message.classList.add("d-block");
+        }
     }
     handleSubmit(e) {
         e.preventDefault();
@@ -47,29 +71,46 @@ class Contacthelper extends Component {
             return;
         }
 
-        fetch('http://dentaldiazmxli.com/api/contacto', {
+        fetch('https://dentaldiazmxli.com/api/contacto', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
-        }).then(
-            (response) => (response.json())
-        ).then((response) => {
-            if (response.id !== '') {
-                document.getElementById("server_response_success").classList.add("d-block");
+        }).then((response) => {
+            if (!response.ok) {
+                throw new Error(`Error del servidor: ${response.status}`);
+            }
+
+            return response.text();
+        }).then((responseText) => {
+            let response = {};
+
+            if (responseText) {
+                try {
+                    response = JSON.parse(responseText);
+                } catch (error) {
+                    response = { message: responseText };
+                }
+            }
+
+            if (response.success === false || response.error) {
+                this.showServerMessage('danger');
+            } else {
+                this.showServerMessage('success');
                 this.resetForm();
                 this.setState({
                     isVerified:true
                 })
-            } else {
-                document.getElementById("server_response_danger").classList.add("d-block");
             }
+        }).catch((error) => {
+            console.error('Error al enviar el formulario:', error);
+            this.showServerMessage('danger');
         })
     }
     resetForm() {
-        this.setState({ name: "", phone: "", email: "", subject: "", message: "", })
+        this.setState({ name: "", phone: "", email: "", subject: "", message: "", isVerified: false, recaptchaToken: "" })
     }
     render() {
         return (

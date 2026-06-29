@@ -107,9 +107,9 @@ class Footer extends Component {
                                         <li>
                                             <Link to="/blog">Artículos</Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link to="/doctor-grid">Doctors</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link to="/contact">Contáctanos</Link>
                                         </li>

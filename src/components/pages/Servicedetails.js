@@ -4,11 +4,12 @@ import Header from '../layouts/Headertwo';
 import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/service-details/Content';
-
-const pagelocation = "Service Details";
+import { getService } from '../../helper/serviceHelper';
 
 class Servicedetails extends Component {
     render() {
+        const item = getService(this.props.match.params.id);
+        const pagelocation = item ? item.title.trim() : "Servicio";
         return (
             <Fragment>
                 <MetaTags>

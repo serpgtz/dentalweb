@@ -2,6 +2,7 @@ import React from 'react';
 import Contacthelper from '../../../helper/Contacthelper';
 import ReCAPTCHA from "react-google-recaptcha";
 import { Alert } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Quote extends Contacthelper {
     render() {
@@ -31,10 +32,23 @@ class Quote extends Contacthelper {
                                         <textarea rows={5} placeholder="Mensaje" name="message" value={this.state.message} onChange={this.onMessageChange} required />
                                     </div>
                                     <ReCAPTCHA
-                                        sitekey="6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib"
+                                        sitekey="6LedxVksAAAAAPgKc-OPGpP-6ojXN0_Fx4Snbk9N"
                                         onChange={this.reCaptchaLoaded.bind(this)}
-                                        size="invisible"
                                     />
+                                    <div className="form-group form-check">
+                                        <input
+                                            type="checkbox"
+                                            id="acceptPrivacy"
+                                            name="acceptPrivacy"
+                                            required
+                                        />
+                                        <label htmlFor="acceptPrivacy" className="text-white" style={{ marginLeft: 8 }}>
+                                            He leído y acepto el{' '}
+                                            <Link to="/aviso-privacidad" className="text-white">
+                                                Aviso de Privacidad
+                                            </Link>.
+                                        </label>
+                                    </div>
                                     <button type="submit" className="btn-block secondary">Enviar</button>
                                     {/* Form Messages */}
                                     <Alert variant="success" className="d-none mt-3 mb-0" id="server_response_success">

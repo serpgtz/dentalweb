@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import blogpost from '../../../data/blog/blog.json';
-import { getAuthor, getNameInitials } from '../../../helper/helper';
+import { getNameInitials } from '../../../helper/helper';
 import Sidebar from '../../layouts/Blogsidebar';
 import Pagination from "react-js-pagination";
 import Videohelper from '../../../helper/Videohelper';
@@ -84,7 +84,7 @@ class Content extends Videohelper {
                             <Link to={"/blog-details/" + item.id}>{item.title}</Link>
                         </h5>
                         <p>{item.shorttext}</p>
-                        <div className="sigma_post-meta">
+                        {/* <div className="sigma_post-meta">
                             <ul>
                                 {getAuthor(item.author).map((author, i) => (
                                     <li className="author" key={i}>
@@ -101,7 +101,7 @@ class Content extends Videohelper {
                                     <Link to={"/blog-details/" + item.id}>{item.reviews.length}</Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </article>

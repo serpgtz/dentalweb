@@ -49,11 +49,6 @@
                 "linkText": "Servicios"
             },
             {
-                "id": 3.3,
-                "link": "/service-details/1",
-                "linkText": "Detalles del Servicio"
-            },
-            {
                 "id": 3.4,
                 "link": "/faqs",
                 "linkText": "Preguntas Frecuentes"
@@ -62,17 +57,13 @@
                 "id": 3.5,
                 "link": "/appointment",
                 "linkText": "Agendar Cita"
-            },
-            {
-                "id": 3.6,
-                "link": "/error-page",
-                "linkText": "Error 404"
             }
         ]
     },
     {
         "id": 4,
         "linkText": "Clínicas",
+        "hidden": true,
         "child": true,
         "submenu": [
             {
@@ -95,6 +86,7 @@
     {
         "id": 5,
         "linkText": "Doctores",
+        "hidden": true,
         "child": true,
         "submenu": [
             {

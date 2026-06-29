@@ -73,7 +73,8 @@ class Headertwo extends Navhelper {
                                 <div className="d-flex align-items-center">
                                     <ul className="navbar-nav">
                                         {/* Data */}
-                                        {navigation.map((item, i) => (
+                                        {/* Clínicas y Doctores siguen en navigation.json con hidden: true por si se reactivan después. */}
+                                        {navigation.filter(item => !item.hidden).map((item, i) => (
                                             <li key={i} className={item.child === true ? 'menu-item menu-item-has-children' : 'menu-item'}>
                                                 {item.child === true ?
                                                     <Link to="#">{item.linkText}</Link>

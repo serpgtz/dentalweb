@@ -14,7 +14,8 @@ class Mobilemenu extends Navhelper {
                 </div>
                 <ul className="navbar-nav">
                     {/* Data */}
-                    {navigation.length > 0 ? navigation.map((item, i) => (
+                    {/* Clínicas y Doctores siguen en navigation.json con hidden: true por si se reactivan después. */}
+                    {navigation.length > 0 ? navigation.filter(item => !item.hidden).map((item, i) => (
                         <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
                             {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
                             {item.child ?
